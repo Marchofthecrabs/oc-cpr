@@ -1,0 +1,181 @@
+{
+  "First Aid And Abet": {
+    "Picklock": 1,
+    "Decoy": 1,
+    "Pickpocket": 1
+  },
+  "Mob Mentality": {
+    "Looter #1": 1,
+    "Looter #2": 1,
+    "Looter #3": 1,
+    "Looter #4": 1
+  },
+  "Pet Project": {
+    "Kidnapper": 1,
+    "Muscle": 1,
+    "Picklock": 1
+  },
+  "Thou Shalt Not Steal": {
+    "Thief": 1,
+    "Pickpocket": 1,
+    "Picklock": 1
+  },
+  "Cash Me If You Can": {
+    "Thief #1": 1,
+    "Thief #2": 1,
+    "Lookout": 1
+  },
+  "Best Of The Lot": {
+    "Picklock": 1,
+    "Car Thief": 1,
+    "Muscle": 1,
+    "Imitator": 1
+  },
+  "Smoke and Wing Mirrors": {
+    "Car Thief": 65,
+    "Imitator": 65,
+    "Hustler #1": 50,
+    "Hustler #2": 50
+  },
+  "Market Forces": {
+    "Enforcer": 50,
+    "Negotiator": 65,
+    "Lookout": 65,
+    "Arsonist": 50,
+    "Muscle": 50
+  },
+  "Gaslight the Way": {
+    "Imitator #1": 50,
+    "Imitator #2": 65,
+    "Imitator #3": 65,
+    "Looter #1": 50,
+    "Looter #2": 50,
+    "Looter #3": 50
+  },
+  "Snow Blind": {
+    "Hustler": 65,
+    "Imitator": 60,
+    "Muscle #1": 50,
+    "Muscle #2": 50
+  },
+  "Plucking The Lotus Petal": {
+    "Robber #1": 60,
+    "Hustler": 60,
+    "Robber #2": 65,
+    "Muscle": 70
+  },
+  "Stage Fright": {
+    "Enforcer": 55,
+    "Muscle #1": 65,
+    "Muscle #2": 55,
+    "Muscle #3": 55,
+    "Lookout": 55,
+    "Sniper": 65
+  },
+  "Guardian Ángels": {
+    "Engineer": 50,
+    "Enforcer": 55,
+    "Hustler": 60
+  },
+  "Counter Offer": {
+    "Engineer": 50,
+    "Hacker": 55,
+    "Looter": 50,
+    "Picklock": 55,
+    "Robber": 55,
+    "test": 20
+  },
+  "No Reserve": {
+    "Car Thief": 55,
+    "Techie": 65,
+    "Engineer": 55
+  },
+  "Honey Trap": {
+    "Enforcer": 55,
+    "Muscle #1": 60,
+    "Muscle #2": 65
+  },
+  "Bidding War": {
+    "Robber #1": 55,
+    "Driver": 65,
+    "Robber #2": 55,
+    "Robber #3": 65,
+    "Bomber #1": 55,
+    "Bomber #2": 55
+  },
+  "Leave No Trace": {
+    "Techie": 60,
+    "Negotiator": 60,
+    "Imitator": 65
+  },
+  "Dish It Out": {
+    "Muscle": 60,
+    "Engineer": 60,
+    "Saboteur #1": 65,
+    "Assassin": 65,
+    "Saboteur #2": 65
+  },
+  "Sneaky Git Grab": {
+    "Pickpocket": 55,
+    "Techie": 60,
+    "Hacker": 55,
+    "Imitator": 50
+  },
+  "Blast From The Past": {
+    "Picklock #1": 55,
+    "Hacker": 55,
+    "Engineer": 65,
+    "Bomber": 60,
+    "Muscle": 65,
+    "Picklock #2": 55
+  },
+  "Window Of Opportunity": {
+    "Engineer": 55,
+    "Looter #1": 60,
+    "Looter #2": 60,
+    "Muscle #1": 60,
+    "Muscle #2": 55
+  },
+  "Cleared For Takeoff": {
+    "Assassin": 60,
+    "Imitator": 60,
+    "Interrogator": 60,
+    "Lookout": 60,
+    "Pickpocket": 60,
+    "Techie": 60
+  },
+  "Break The Bank": {
+    "Robber": 65,
+    "Muscle #1": 65,
+    "Muscle #2": 65,
+    "Thief #1": 65,
+    "Muscle #3": 65,
+    "Thief #2": 65
+  },
+  "Ship Happens": {
+    "Assassin": 65,
+    "Engineer": 65,
+    "Hustler": 65,
+    "Interrogator": 65,
+    "Spy": 65
+  },
+  "Clinical Precision": {
+    "Cat Burglar": 65,
+    "Cleaner": 65,
+    "Imitator": 65,
+    "Assassin": 65
+  },
+  "Stacking the Deck": {
+    "Cat Burglar": 60,
+    "Driver": 60,
+    "Hacker": 55,
+    "Impersonator": 60
+  },
+  "Ace in the Hole": {
+    "Imitator": 55,
+    "Muscle #1": 55,
+    "Muscle #2": 55,
+    "Hacker": 60,
+    "Driver": 55
+  }
+}
