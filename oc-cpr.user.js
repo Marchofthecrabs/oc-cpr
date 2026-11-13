@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         UA - OC CPR Highlighter & Weights
+// @name         Unicorn Apocalypse - OC CPR Highlighter & Weights
 // @namespace    UA-Local-Scripts
 // @version      3.1
 // @description  Combines local CPR highlighting and TornProbability Weights (TornPDA Fix)
