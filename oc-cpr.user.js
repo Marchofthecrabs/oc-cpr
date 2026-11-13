@@ -8,7 +8,7 @@
 // @run-at       document-idle
 // @grant        GM_xmlhttpRequest
 // @grant        GM.xmlHttpRequest
-// @connect      gist.githubusercontent.com
+// @connect      raw.githubusercontent.com
 // @connect      tornprobability.com
 // @noframes
 // @downloadURL  https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js
@@ -18,7 +18,7 @@
   "use strict";
 
   // --- URLs ---
-  const CPR_URL = "https://gist.githubusercontent.com/Forphucsake/832ea7e14b12553e4d7f1a00f6ce855c/raw/oc_pass.json";
+  const CPR_URL = "https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-pass.json";
   const WEIGHT_URL = "https://tornprobability.com:3000/api/GetRoleWeights";
 
   // --- Styles ---
