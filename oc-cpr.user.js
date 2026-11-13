@@ -11,8 +11,8 @@
 // @connect      gist.githubusercontent.com
 // @connect      tornprobability.com
 // @noframes
-// @downloadURL  https://gist.githubusercontent.com/Forphucsake/9d2434c851e9a76b49d76ea99ef891bf/raw/oc-cpr.user.js
-// @updateURL    https://gist.githubusercontent.com/Forphucsake/9d2434c851e9a76b49d76ea99ef891bf/raw/oc-cpr.user.js
+// @downloadURL  https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js
+// @updateURL    https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js
 // ==/UserScript==
 (function () {
   "use strict";
