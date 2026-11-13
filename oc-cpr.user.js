@@ -11,14 +11,14 @@
 // @connect      raw.githubusercontent.com
 // @connect      tornprobability.com
 // @noframes
-// @downloadURL  https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js
-// @updateURL    https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js
+// @downloadURL  https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js?token=GHSAT0AAAAAAEP63BNZDH5TYELE2NSCZZ6Y2XXATTA
+// @updateURL    https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-cpr.user.js?token=GHSAT0AAAAAAEP63BNZDH5TYELE2NSCZZ6Y2XXATTA
 // ==/UserScript==
 (function () {
   "use strict";
 
   // --- URLs ---
-  const CPR_URL = "https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-pass.json";
+  const CPR_URL = "https://raw.githubusercontent.com/Marchofthecrabs/oc-cpr/refs/heads/main/oc-pass.json?token=GHSAT0AAAAAAEP63BNZCGH5APYJGACN4AMS2XXAVWQ";
   const WEIGHT_URL = "https://tornprobability.com:3000/api/GetRoleWeights";
 
   // --- Styles ---
