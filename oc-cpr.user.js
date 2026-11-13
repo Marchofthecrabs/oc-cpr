@@ -172,22 +172,55 @@
   }
 
   // ---- Data Helpers ----
-  function loadJSON(url) {
-    return new Promise((resolve) => {
-      GM_xmlhttpRequest({
-        method: "GET",
-        url,
-        headers: { "Accept": "application/json" },
-        onload: (res) => {
-          try {
-            if (res.status < 200 || res.status >= 300) return resolve(null);
-            resolve(JSON.parse(res.responseText || "{}"));
-          } catch { resolve(null); }
-        },
-        onerror: () => resolve(null),
-      });
+function loadJSON(url) {
+  return new Promise((resolve) => {
+    const request =
+      typeof GM !== "undefined" &&
+      typeof GM.xmlHttpRequest === "function"
+        ? GM.xmlHttpRequest.bind(GM)
+        : typeof GM_xmlhttpRequest === "function"
+          ? GM_xmlhttpRequest
+          : null;
+
+    if (!request) {
+      console.error("[OC Master] No supported GM HTTP request API");
+      resolve(null);
+      return;
+    }
+
+    request({
+      method: "GET",
+      url,
+      headers: { "Accept": "application/json" },
+      timeout: 15000,
+
+      onload: (res) => {
+        try {
+          if (res.status < 200 || res.status >= 300) {
+            console.error("[OC Master] HTTP error:", res.status, url);
+            resolve(null);
+            return;
+          }
+
+          resolve(JSON.parse(res.responseText));
+        } catch (e) {
+          console.error("[OC Master] JSON parsing failed:", url, e);
+          resolve(null);
+        }
+      },
+
+      onerror: (e) => {
+        console.error("[OC Master] Request failed:", url, e);
+        resolve(null);
+      },
+
+      ontimeout: () => {
+        console.error("[OC Master] Request timed out:", url);
+        resolve(null);
+      }
     });
-  }
+  });
+}
 
   // CPR JSON Normalizer & Indexer
   const normCPR = (s) => String(s || "").normalize("NFKC").toLowerCase().replace(/\s+/g, " ").trim();
