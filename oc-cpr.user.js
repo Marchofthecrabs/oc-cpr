@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Unicorn Apocalypse - OC CPR Highlighter & Weights
 // @namespace    UA-Local-Scripts
-// @version      3.1
+// @version      3.2
 // @description  Combines local CPR highlighting and TornProbability Weights (TornPDA Fix)
 // @match        https://www.torn.com/factions.php*
 // @match        https://www.torn.com/organizedcrimes.php*
